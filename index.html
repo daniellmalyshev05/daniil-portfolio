@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniil — Creative Director</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✦</text></svg>">
+    <!-- Подключаем стили -->
+    <script type="module" crossorigin src="/assets/index-CpP9P9mm.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BDke_eov.css">
+  </head>
+  <body>
+    <body>
+    <!-- GRAIN EFFECT -->
+    <div class="grain-overlay"></div>
+    
+    <!-- CURSOR -->
+    <div class="cursor"></div>
+
+    <!-- PRELOADER -->
+    <div class="preloader">
+      <div class="preloader__text">LOADING PORTFOLIO</div>
+    </div>
+
+    <!-- MAIN WRAPPER (для плавного скролла) -->
+    <main id="app" data-scroll-container>
+      
+      <!-- NAVIGATION -->
+      <nav class="nav">
+        <div class="nav__logo">DANIIL</div>
+        <div class="nav__links">
+          <a href="#immersive" class="nav__link">Immersive</a>
+          <a href="#product" class="nav__link">Product</a>
+          <a href="#cases" class="nav__link">Cases</a>
+          <a href="#contact" class="nav__link">Contact</a>
+        </div>
+      </nav>
+
+      <!-- 1. HERO SECTION -->
+      <section class="hero" data-scroll-section>
+        <div class="container">
+          <h1 class="hero__title">
+            <div class="line">DIGITAL</div>
+            <div class="line">EXPERIENCE</div>
+            <div class="line">DIRECTOR</div>
+          </h1>
+          <div class="hero__sub">
+            <p>Создаю цифровые продукты, PR и бренд-активации<br>на стыке креатива и технологий.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. WEBAR SHOWCASE (Горизонтальный скролл) -->
+      <section id="immersive" class="gallery-wrap" data-scroll-section>
+        <div class="gallery-intro container">
+          <span>(01) IMMERSIVE WEB</span>
+          <h2>Взаимодействие без границ. WebAR и контроль жестами</h2>
+          <a href="https://varneks.ru" target="_blank" class="simple-link">
+            Заказать на VARNEKS
+          </a>
+        </div>
+        
+        <div class="gallery">
+          <!-- Кейс 1: Nike -->
+          <div class="gallery__item">
+            <div class="gallery__media">
+               <!-- Заглушка видео -->
+              <video src="./media/nike-webar.mp4" autoplay loop muted playsinline></video>
+            </div>
+            <div class="gallery__info">
+              <h3>Nike WebAR</h3>
+              <p>Пользователи жестами собирают кроссовок Nike из миллионов частиц без установки приложения.</p>
+            </div>
+          </div>
+
+          <!-- КЕЙС 2: WB / HARRY POTTER -->
+          <div class="gallery__item">
+            <div class="gallery__media">
+              <!-- Не забудь поменять имя файла на свое -->
+              <video src="./media/wb-potter.mp4" autoplay loop muted playsinline></video>
+            </div>
+            <div class="gallery__info">
+              <h3>Promo: Harry Potter WB</h3>
+              <p>Нейросеть распознает палец как палочку, чтобы онлайн сражаться с дементорами.</p>
+            </div>
+          </div>
+
+          <!-- Кейс 2: OFF! -->
+          <div class="gallery__item">
+            <div class="gallery__media">
+              <video src="./media/off-mosquito.mp4" autoplay loop muted playsinline></video>
+            </div>
+            <div class="gallery__info">
+              <h3>OFF! Mosquito Defense</h3>
+              <p>Промо, где можно разгонять комаров взмахами рук за счет обычной веб-камеры ноутбука.</p>
+            </div>
+          </div>
+
+          <!-- Кейс 3: Catchyland -->
+          <div class="gallery__item">
+            <div class="gallery__media">
+              <video src="./media/catchyland.mp4" autoplay loop muted playsinline></video>
+            </div>
+            <div class="gallery__info">
+              <h3>Catchyland Mini App</h3>
+              <p>Интерактивное Telegram-приложение, где игрок контролирует гравитацию и собирает кристаллы.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. PRODUCT / AI SECTION -->
+      <section id="product" class="product" data-scroll-section>
+        <div class="container">
+          <div class="section-header">
+            <span>(02) PRODUCT VISION</span>
+            <h2>СОБСТВЕННЫЕ ПРОЕКТЫ</h2>
+          </div>
+          <div class="product__content">
+            <div class="product__text">
+              <h3>DEEPLIST</h3>
+              <p class="big-text">
+                Крупный русскоязычный портал про ИИ. 
+                <br><br>
+                Выступаю как создатель продукта: от идеи и UX/UI до разработки и контент-стратегии
+              </p>
+              <ul class="product__stats">
+                <li>3200+ Нейросетей в базе</li>
+                <li>5К+ Активная аудитория</li>
+                <li>Full-stack реализация</li>
+              </ul>
+              <a href="https://deeplist.ru" class="btn-link">В библиотеку</a>
+            </div>
+            <div class="product__image">
+               <!-- Плейсхолдер для изображения -->
+               <img src="./media/ai-portal-ui.png" alt="AI Portal Interface Deeplist" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. SELECTED WORKS (Список с наведением) -->
+      <section id="cases" class="work" data-scroll-section>
+        <div class="container">
+          <div class="section-header">
+            <span>(03) SELECTED WORKS</span>
+            <h2>КЛИЕНТСКИЕ КЕЙСЫ</h2>
+          </div>
+          
+          <div class="work__list">
+            <!-- VK -->
+            <article class="work__item" data-video="./media/vk-cut.mp4" data-orientation="landscape">
+              <div class="work__info">
+                <h3 class="work__title">Кампании для VK</h3>
+                <span class="work__cat">Art Direction / 360°</span>
+              </div>
+              <div class="mobile-only-media">
+                 <!-- Дублируем путь к видео сюда -->
+                 <video src="./media/vk-cut.mp4" muted loop playsinline autoplay></video>
+              </div>
+            </article>
+
+            <!-- Gazprombank -->
+            <article class="work__item" data-video="./media/gazprom-cut.mp4" data-orientation="portrait">
+              <div class="work__info">
+                <h3 class="work__title">Проект для Газпромбанка</h3>
+                <span class="work__cat">Game Design / EdTech</span>
+              </div>
+              <div class="mobile-only-media">
+                 <!-- Дублируем путь к видео сюда -->
+                 <video src="./media/gazprom-cut.mp4" muted loop playsinline autoplay></video>
+              </div>
+            </article>
+            
+            <!-- Olimpbet -->
+             <article class="work__item" data-video="./media/olimpbet-cut.mp4" data-orientation="portrait">
+              <div class="work__info">
+                <h3 class="work__title">Контент для Olimpbet</h3>
+                <span class="work__cat">Product / Mobile Stories</span>
+              </div>
+              <div class="mobile-only-media">
+                 <!-- Дублируем путь к видео сюда -->
+                 <video src="./media/olimpbet-cut.mp4" muted loop playsinline autoplay></video>
+              </div>
+            </article>
+
+             <!-- Bloxi -->
+             <article class="work__item" data-video="./media/bloxi-cut.mp4" data-orientation="portrait">
+              <div class="work__info">
+                <h3 class="work__title">Bloxi App</h3>
+                <span class="work__cat">StartUp / Complex UI</span>
+              </div>
+              <div class="mobile-only-media">
+                 <!-- Дублируем путь к видео сюда -->
+                 <video src="./media/bloxi-cut.mp4" muted loop playsinline autoplay></video>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIRAL SECTION -->
+      <section class="viral" data-scroll-section>
+        <div class="container">
+          <div class="section-header">
+             <span>(04) MARKETING IMPACT</span>
+             <h2>VIRAL & PR</h2>
+          </div>
+
+          <div class="viral__grid">
+            
+            <!-- Item 1 -->
+            <div class="viral__item">
+              <div class="viral__img">
+                <!-- Замени на свой скриншот -->
+                <img src="./media/tg-post-1.jpg" alt="Post stat">
+              </div>
+              <div class="viral__data">
+                <span class="viral__num">8.3M</span>
+                <span class="viral__label">Total Views</span>
+              </div>
+              <p class="viral__desc">Вирусный охват для кейса ПМЭФ. Органический рост через репосты.</p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="viral__item">
+              <div class="viral__img">
+                <img src="./media/tg-post-2.jpg" alt="Post stat">
+              </div>
+              <div class="viral__data">
+                <span class="viral__num">275K</span>
+                <span class="viral__label">Interactions</span>
+              </div>
+              <p class="viral__desc">Тематическое продвижение Московского Транспорта с помощью инфоповодов.</p>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="viral__item">
+              <div class="viral__img">
+                <img src="./media/tg-post-3.jpg" alt="Post stat">
+              </div>
+              <div class="viral__data">
+                <span class="viral__num">850K</span>
+                <span class="viral__label">Leads Generated</span>
+              </div>
+              <p class="viral__desc">Прогрев запуска социологического агентства через сетку каналов.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ARCHIVE / R&D SECTION -->
+      <section class="archive" data-scroll-section>
+        <div class="container">
+          <div class="archive__header">
+            <h3>ADDITIONAL PROJECTS</h3>
+          </div>
+          
+          <div class="archive__grid">
+  
+            <!-- Row 1: Shorts (BK, Gov, MinZdrav) -->
+              <div class="archive__row" data-img="./media/archive-shorts.jpg">
+                <span class="archive__year">2024</span>
+                <span class="archive__name">UGC Native</span>
+                <span class="archive__role">Burger King / Moscow Gov</span>
+                <span class="archive__type">Production</span>
+                <div class="mobile-only-media">
+                  <img src="./media/archive-shorts.jpg" alt="Preview">
+                </div>
+              </div>
+
+              <!-- Row 2: Practice Podcast -->
+              <div class="archive__row" data-img="./media/archive-practice.jpg">
+                <span class="archive__year">2022</span>
+                <span class="archive__name">Practice Agency</span>
+                <span class="archive__role">Creative Producer</span>
+                <span class="archive__type">Podcast</span>
+                <div class="mobile-only-media">
+                  <img src="./media/archive-practice.jpg" alt="Preview">
+                </div>
+              </div>
+
+              <!-- Row 3: MBM Course -->
+              <div class="archive__row" data-img="./media/archive-mbmcourse.jpg">
+                <span class="archive__year">2021</span>
+                <span class="archive__name">MBM</span>
+                <span class="archive__role">Online Course</span>
+                <span class="archive__type">EdTech</span>
+                <div class="mobile-only-media">
+                  <img src="./media/archive-mbmcourse.jpg" alt="Preview">
+                </div>
+              </div>
+
+              <!-- Row 4: Coldy -->
+              <div class="archive__row" data-img="./media/archive-coldy.jpg">
+                <span class="archive__year">2022</span>
+                <span class="archive__name">Coldy Developer</span>
+                <span class="archive__role">Integration</span>
+                <span class="archive__type">Ads</span>
+                <div class="mobile-only-media">
+                  <img src="./media/archive-coldy.jpg" alt="Preview">
+                </div>
+              </div>
+
+              <!-- Row 5: Smena -->
+              <div class="archive__row" data-img="./media/archive-smena.jpg">
+                <span class="archive__year">2023</span>
+                <span class="archive__name">"Smena" Short Film</span>
+                <span class="archive__role">Producer / Screenplay</span>
+                <span class="archive__type">Cinema</span>
+                <div class="mobile-only-media">
+                  <img src="./media/archive-smena.jpg" alt="Preview">
+                </div>
+              </div>
+
+              <!-- Row 6: Kitchen Talks -->
+              <div class="archive__row" data-img="./media/archive-kitchen.jpg">
+                <span class="archive__year">2022</span>
+                <span class="archive__name">Kitchen Talks Show</span>
+                <span class="archive__role">Producer / Concept</span>
+                <span class="archive__type">YouTube Show</span>
+                <!-- Картинка для мобильной версии -->
+                <div class="mobile-only-media">
+                  <img src="./media/archive-kitchen.jpg" alt="Preview">
+                </div>
+              </div>
+
+            </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer id="contact" class="footer" data-scroll-section>
+        <div class="container">
+          <h2 class="footer__cta" data-img="./media/me.jpg">LET'S COLLAB</h2>
+          <div class="mobile-only-media footer-photo">
+            <img src="./media/me.jpg" alt="Daniil">
+          </div>
+          <div class="footer__contacts">
+            <a href="mailto:danielou1277@yandex.ru">EMAIL</a>
+            <a href="https://t.me/henry_laurier">TELEGRAM</a>
+            <a href="https://wa.me/79101874973">WHATSAPP</a>
+          </div>
+          <div class="footer__copy">
+            <span>© 2025 Daniil</span>
+            <button id="highFive" class="btn-highfive">Дать Пять ✋</button>
+            <span>Moscow / Worldwide</span>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- Плавающий контейнер для видео (Hover Reveal) -->
+    <div class="hover-reveal">
+      <div class="hover-reveal__inner">
+        <video class="hover-reveal__video" src="" loop muted playsinline></video>
+        <img class="hover-reveal__img" src="" alt="Project Preview">
+      </div>
+    </div>
+
+    <!-- Подключаем JS модуль -->
+  </body>
+</html>
